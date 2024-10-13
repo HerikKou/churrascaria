@@ -1,0 +1,229 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-image: linear-gradient(to bottom,#000,#616161);
+    
+}
+header{
+   background-color:#515151
+}
+li{ color: white;
+    padding:10px 4%;        
+    display: inline-flex;
+    width: 250px;
+    
+    
+}
+a{
+    color:white;
+}
+h1{
+    font-size:medium;
+    color:white;}
+h3{
+    font-size: small;
+    color: white;
+}
+button{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border-color: red;
+}
+.menu{
+    padding: 100px;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+.images{display:flex;
+        
+        align-items: center;
+        justify-content: center;
+    
+  
+   
+    
+}
+
+img{
+    display: inline;
+   padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+
+}
+.valores{
+    display: inline;
+    text-align: center;
+   
+    align-items: center;
+    margin: 0;
+    width: 100px;
+}
+
+.carne{ font-size: small;
+    padding: 44px;
+    margin:25px;
+    width: 25px;
+    color: white;
+    
+   
+   
+    margin-top: -800px;
+  top: 50px;
+}
+.preço{
+    font-size: small;
+    margin: 24px;
+    width: 0px;
+    color: white;
+   
+}
+
+
+input[type="text"],p{display: flex;
+     border-color: red;
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 780px;
+    
+}
+input[type="email"]{
+ border-color: red;
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+    width: 780px;
+}
+input[type="tel"]{
+   border-color: red;
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+    width: 780px;
+    
+}
+input[type="date"]{
+    
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-color: red;
+    width: 745px;
+
+}
+input[type="time"]{
+    
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-color: red;
+    width: 780px;
+}
+input[type="button"]{
+   display: flex;
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-color: red;
+    width: 550px;
+    background-color: red;
+    font-size: medium;
+    color: white;
+    border-radius: 4px;
+}
+footer{
+    background-color: white;
+    min-height: auto;
+}
+.cont{text-align: center;
+    font-size: medium;
+    color: black;
+    height: 70px;
+}
+.bairro{padding: 10px;
+    text-align: center;
+    font-size: small;
+ color:black;
+}
+.ano{
+    background-color: red;
+    color:white;
+  width: auto;
+    
+}
+form{justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    padding: 40px;
+    border-radius: 10px;
+  width: 800px;
+  margin: 0 auto;
+}
+.rese { 
+    text-align: center;
+    
+    
+  
+   
+   
+}
+.reservas{
+    color: #616161;
+}
+
+
+
+.pai{
+    
+   
+   display: inline;
+ align-items: center;
+ justify-content: space-around ;
+ 
+
+ position: relative;
+ bottom: 220px;
+ top:10px ;
+ right: 21px;
+ left: 5px;
+
+ 
+
+
+
+
+   
+  
+
+}
+.preços{
+    display: inline;
+    justify-content: space-around;
+   
+    position: relative;
+   bottom: 70px;
+font-size: small;
+    right: 55px;
+   left: 20px;
+
+   padding: 59px;
+  padding-right: 59px;
+  text-align: right ;
+
+
+   
+   
+}
